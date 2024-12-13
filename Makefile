@@ -3,6 +3,7 @@
 ##
 ## Makefile for OpenSSL
 ##
+##
 
 VERSION=1.0.1g
 MAJOR=1
