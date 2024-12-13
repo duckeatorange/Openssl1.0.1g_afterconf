@@ -69,7 +69,6 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         build-mode: ${{ matrix.build-mode }}
-        queries: + .github/queries/OpenSslHeartbleed.ql  # 指定自定义查询
         paths: .  # 扫描整个项目的所有文件
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
